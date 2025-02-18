@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.14">
+  <diagram name="Page-1" id="t944eyOkEjKY7S_o1W-J">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Est-ce que vous avez un prompt bien structuré?" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="246" width="231" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Utilisez-vous draw.io?" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="349" y="202" width="179" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Quel type de diagramme voulez-vous générer?" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="639" y="89" width="231" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Commencez par dessiner les classes et les relations" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1101" y="8" width="231" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Commencez par identifier les interactions et les messages entre les acteurs" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1098" y="121" width="237" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Identifiez les différents états du système et les transitions entre eux" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1098" y="258" width="237" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Veuillez installer draw.io en premier" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="639" y="202" width="231" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Veuillez structurer un prompt pour obtenir des informations claires" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="291" width="237" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Oui" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=0;entryX=0;entryY=0.49;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Oui" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=-0.01;entryX=0;entryY=0.49;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="598" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Diagramme de classe" style="curved=1;startArrow=none;endArrow=block;exitX=0.89;exitY=-0.01;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Diagramme de séquence" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Diagramme d&#39;état" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0.99;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="984" y="302" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Non" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.66;entryX=0;entryY=0.49;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="598" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Non" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0;entryY=0.49;" edge="1" parent="1" source="2" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
